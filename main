@@ -16,4 +16,5 @@ apt update -y
 apt upgrade -y
 sleep $s
 
-# install automap
+# Installl automap -                                   ref https://github.com/psycolulz/AutoMap/blob/main/AutoMap.sh
+curl -k -s https://raw.githubusercontent.com/psycolulz/AutoMap/main/AutoMap.sh
