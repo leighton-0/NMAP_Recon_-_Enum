@@ -1,0 +1,19 @@
+
+#!/bin/bash
+
+######################################################################
+##             NMAP Recon & Enum Set-Up Script                ##
+#######################################################################
+# This is a script that installls a collection of tools I've collected to
+# recon & enumerate NMAP sites.
+
+s=2                  # Slows scritpt down so you can see whats going on
+
+printf '\n============================================================\n'
+printf '[+] Updating System\n'
+printf '============================================================\n\n'
+apt update -y
+apt upgrade -y
+sleep $s
+
+# install automap
